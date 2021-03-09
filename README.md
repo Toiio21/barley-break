@@ -1,24 +1,9 @@
-# proj
+Barley-break (Пятнашки)
 
-## Project setup
-```
-yarn install
-```
+Тестовое задание: Игра "Пятнашка" на Vue.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+Основная логика содержится в файле game.js и компоненте Game.vue
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Позиция картинок указывается сверху и вручную может изменяться для достижения правильного результата.
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Пробел в указании позиции - пустое место для возможности играть 
